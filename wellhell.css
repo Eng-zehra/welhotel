@@ -1,0 +1,154 @@
+.hero {
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./IMG/barkad.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+    text-align: center;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    padding-top: 80px; /* Remove padding-top to ensure proper centering */
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .simple h1 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 7px;
+  }
+  
+  .container {
+    background-color: #f4f1ed;
+  }
+  
+  .well h1 {
+    font-size: 80px;
+  }
+  
+  .btn1 button {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  
+  .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #brand1 {
+    font-size: 50px;
+  }
+  .dive2 {
+    padding: 60px 80px; /* Reduced padding */
+    display: flex;
+    color: #623e2a;
+
+  }
+  
+  #brand {
+    line-height: 1.5rem;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
+  .img {
+    margin-left: 80px;
+  }
+
+  
+  .recommend {
+    background-color: #efebe5;
+    padding: 20px 30px; /* Reduced padding */
+    margin-top: 0; /* Remove top margin */
+  
+  }
+  .remd-img{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 20px;
+  }
+  .recommend h2{
+    text-align: center;
+    justify-content: center;
+  }
+  #accomtxt{
+    text-align: center;
+    margin-bottom:20px;
+    font-size:25px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+  
+  }
+  .wellhallfamily{
+    width: 400px;
+    height: 200px;
+    background-color: #efebe5;
+    border: 2px solid #623e2a;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    color: #623e2a;
+   
+  }
+  .div3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    background-color: #f4f1ed;
+    width: 100%;
+    padding: 50px;
+    margin-top: 60px;
+  }
+  .title3{
+   text-align: left;
+   padding-top: 10px;
+   font-size:32px;
+   width: 50%;
+  }
+  .praph{
+    width:55%;
+    font-size: 15px;
+    margin-top:50px;
+    line-height: 1rem;
+    border:2px solid #623e2a;
+    padding: 20px;
+
+  }
+  .txtUnder{
+    margin-top: 20px;
+  
+  }
+  .undertxt{
+    border:2px solid #623e2a;
+    font-size: 15px;
+    padding: 20px;
+    width:400px;
+  }
+  .img{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   
+    background-color: #f4f1ed;
+   justify-content: center;
+   gap: 30px;
+   font-size: 12px;
+  }
+  .div3{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
